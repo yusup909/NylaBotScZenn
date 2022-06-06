@@ -4,14 +4,14 @@ global.DeveloperMode = 'false' // true or false
 global.linkGC = ['https://chat.whatsapp.com/JgFOfu182li7kG6dlKcwzD']
 global.Owner = {
   // use the phone number with the country code, for example Indonesia '62' America '1' etc
-  '628818770766': { // 628818770766
-    name: 'Zevano',
+  '6283897390164': { // 628818770766
+    name: 'YusupKakuu',
     isReport: true, // if true this number will send if user use command /report or /join
     isCreator: true, // if true this number will send if user use command /owner or /creator
     isDev: true
   }
 }
-global.mods = ['6283897390164'] // Want some help?
+global.mods = ['628818770766'] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -40,13 +40,13 @@ global.APIKeys = { // Apikey Here
 }
 
 // Sticker Watermark
-global.packname = 'NayLa-B0TZ'
-global.author = 'Zevano'
+global.packname = 'LinuxBotV3'
+global.author = 'Sc By Zevano'
 
 global.multiplier = 36 // The higher, The harder levelup
 global.sessionName = 'nayla' // The Session name behind the .json example is nayla.json
 global.mesreport = 50
-global.botname = 'NAYLA-BOTZ'
+global.botname = 'LinuxBot'
 
 global.ext = {
 	title: 'Sabar sedang di proses',
